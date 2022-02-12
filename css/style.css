@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+@font-face {
+	font-family: "Carattere-Regular";
+	src: url("../fonts/Carattere-Regular.ttf") format("ttf"), url("../fonts/Carattere-Regular.woff") format("woff"),
+		url("../fonts/Carattere-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: "lato", sans-serif;
+}
+.menu {
+	color: rgba(190, 190, 190, 0.705);
+	font-size: 30px;
+	font-style: oblique;
+	padding-left: 100px;
+	border: 12px solid #0b0b0b;
+	border-bottom: none;
+}
+.menu li {
+	color: aqua;
+	padding-left: 80px;
+}
+.menu + p {
+	color: rgba(49, 118, 236, 0.5);
+	font-family: "Carattere-regular", sans-serif; /*слово "Путем" не перешло на данный шрифт т.к. у этого шрифта нет кириллицы!проверил подключение*/
+	border: 18px dotted darkorange;
+	border-bottom: 18px solid olivedrab;
+}
+.menu > ol ul {
+	color: #2c241ef5;
+	padding-left: 130px;
+}
+#section {
+	color: #13195c;
+}
+.list > li a {
+	color: maroon;
+	text-decoration: none;
+	border-bottom: 3px dotted black;
+}
+.list {
+	text-align: right;
+	font-size: 35px;
+	margin-right: 100px;
+}
+.block {
+	word-spacing: 15px;
+}
+.miracle {
+	color: red;
+	font-style: italic;
+}
+.miracle h1 {
+	color: #0f0f0f;
+	font-size: 30px;
+	text-shadow: -3px -5px 2px #2508f9, 3px 4px 2px #14121f;
+	padding-left: 50px;
+}
+.miracle p {
+	padding-left: 500px;
+	margin-bottom: 50px;
+	max-height: 100px;
+	overflow: auto;
+}
+.text.education {
+	color: #2851ed;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 20px;
+}
+.text.education h2 {
+	padding-left: 500px;
+	margin-bottom: 20px;
+}
+.text.education p {
+	max-width: 900px;
+	text-align: right;
+	overflow: scroll;
+}
+.paragraph-1 p {
+	min-width: 200px;
+	max-width: 900px;
+	text-align: right;
+	max-height: 150px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.one {
+	font-family: "Oswald";
+	color: #2508f9;
+	max-height: 40px;
+	display: inline-block;
+	background-color: cyan;
+}
+.picture img {
+	width: 250px;
+	height: 250px;
+	margin: 60px 100px;
+	border-radius: 50%;
+	box-shadow: 15px 20px 20px 25px yellow;
+	outline: 15px dotted blue;
+	border: 10px solid rgb(11, 143, 66);
+}
+.picture span {
+	color: red;
+}
+.text.paragraph {
+	text-transform: capitalize;
+	font-weight: 700;
+	text-shadow: 1px -3px 2px #2508f9;
+	background-color: darkorange;
+	max-height: 300px;
+	min-height: 100px;
+}
+.paragraph-1 h3 {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.paragraph span {
+	color: #2508f9;
+}
+.next {
+	color: darkgoldenrod;
+	font-family: "Carattere-regular", sans-serif; /*текст на кирилице не перешел на данный шрифт т.к. у этого шрифта нет кириллицы!проверил подключение*/
+	font-weight: 900;
+	font-size: 40px;
+	text-align: justify;
+}
+.next h4 {
+	font-size: 30px;
+	text-align: right;
+}
+.next a {
+	color: darkgreen;
+	font-size: 70px;
+	border: 4px dotted #0b0b0b;
+}
+a {
+	color: blue;
+}
+.two p {
+	border-top: 12px dashed rgb(104, 169, 199);
+	margin-bottom: 40px;
+	opacity: 0.4;
+}
+.three p {
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 20px 60% 80px 75px;
+	border: 15px solid rgb(87, 8, 8);
+	box-shadow: inset 10px 20px 30px 15px green;
+}
+.picture-1 img {
+	border-radius: 95px 35px 45px 55px;
+	border: 35px double #2508f9;
+	margin-bottom: 50px;
+	width: 30%;
+	margin: 30px 450px;
+	outline: 20px dashed gold;
+}
+.four {
+	width: 200px;
+	height: 200px;
+	margin-left: 150px;
+	border-radius: 50%;
+	background-color: aqua;
+	overflow: hidden;
+}
+.five p {
+	outline: 30px solid #2508f9;
+	margin: 50px 70px 40px 100px;
+	opacity: 0.1;
+}
+.six {
+	margin: 70px;
+	color: lime;
+	visibility: hidden;
+	/*display: none;*/
+}
+footer {
+	color: #0b0b0b;
+	font-family: "Carattere-regular";
+	font-size: 40px;
+	font-weight: 900;
+}
